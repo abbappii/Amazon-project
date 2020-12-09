@@ -1,0 +1,210 @@
+[debug] [2020-09-18T04:10:02.579Z] ----------------------------------------------------------------------
+[debug] [2020-09-18T04:10:02.608Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bappi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2020-09-18T04:10:02.610Z] CLI Version:   8.10.0
+[debug] [2020-09-18T04:10:02.610Z] Platform:      win32
+[debug] [2020-09-18T04:10:02.611Z] Node Version:  v12.18.3
+[debug] [2020-09-18T04:10:02.685Z] Time:          Fri Sep 18 2020 10:10:02 GMT+0600 (Bangladesh Standard Time)
+[debug] [2020-09-18T04:10:02.686Z] ----------------------------------------------------------------------
+[debug] [2020-09-18T04:10:02.687Z] 
+[debug] [2020-09-18T04:10:02.845Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-18T04:10:02.848Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2020-09-18T04:10:05.246Z] [hub] writing locator at C:\Users\Bappi\AppData\Local\Temp\hub-challenge-11612.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: firestore, database, pubsub {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mfirestore, database, pubsub\u001b[22m"}}
+[warn] !  Your requested "node" version "10" doesn't match your global version "12" {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"10\" doesn't match your global version \"12\""}}
+[debug] [2020-09-18T04:10:08.245Z] defaultcredentials: writing to file C:\Users\Bappi\AppData\Roaming\firebase\bappi142434_gmail_com_application_default_credentials.json
+[debug] [2020-09-18T04:10:08.263Z] Setting GAC to C:\Users\Bappi\AppData\Roaming\firebase\bappi142434_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Bappi\\AppData\\Roaming\\firebase\\bappi142434_gmail_com_application_default_credentials.json"}}
+[debug] [2020-09-18T04:10:10.851Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-09-18T04:10:10.853Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-09-18T04:10:11.274Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 18 Sep 2020 04:10:10 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-09-18T04:10:11.509Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/challenge-11612/webApps/-/config  
+ 
+[debug] [2020-09-18T04:10:13.262Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 18 Sep 2020 04:10:12 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2020-09-18T04:10:15.909Z] Error: listen EACCES: permission denied 127.0.0.1:4500
+    at Server.setupListenHandle [as _listen2] (net.js:1296:21)
+    at listenInCluster (net.js:1361:12)
+    at GetAddrInfoReqWrap.doListen [as callback] (net.js:1498:7)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:68:8)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-09-18T04:34:19.860Z] ----------------------------------------------------------------------
+[debug] [2020-09-18T04:34:19.872Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bappi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2020-09-18T04:34:19.874Z] CLI Version:   8.10.0
+[debug] [2020-09-18T04:34:19.874Z] Platform:      win32
+[debug] [2020-09-18T04:34:19.874Z] Node Version:  v12.18.3
+[debug] [2020-09-18T04:34:19.930Z] Time:          Fri Sep 18 2020 10:34:19 GMT+0600 (Bangladesh Standard Time)
+[debug] [2020-09-18T04:34:19.933Z] ----------------------------------------------------------------------
+[debug] [2020-09-18T04:34:19.933Z] 
+[debug] [2020-09-18T04:34:20.037Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-18T04:34:20.042Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project challenge-11612. This may result in unexpected behavior. 
+[debug] [2020-09-18T04:34:22.262Z] [hub] writing locator at C:\Users\Bappi\AppData\Local\Temp\hub-challenge-11612.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: firestore, database, pubsub {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mfirestore, database, pubsub\u001b[22m"}}
+[warn] !  Your requested "node" version "10" doesn't match your global version "12" {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"10\" doesn't match your global version \"12\""}}
+[debug] [2020-09-18T04:34:24.691Z] defaultcredentials: writing to file C:\Users\Bappi\AppData\Roaming\firebase\bappi142434_gmail_com_application_default_credentials.json
+[debug] [2020-09-18T04:34:24.701Z] Setting GAC to C:\Users\Bappi\AppData\Roaming\firebase\bappi142434_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Bappi\\AppData\\Roaming\\firebase\\bappi142434_gmail_com_application_default_credentials.json"}}
+[debug] [2020-09-18T04:34:26.742Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/challenge-11612/webApps/-/config  
+ 
+[debug] [2020-09-18T04:34:28.458Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 18 Sep 2020 04:34:27 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2020-09-18T04:34:30.850Z] Error: listen EACCES: permission denied 127.0.0.1:4500
+    at Server.setupListenHandle [as _listen2] (net.js:1296:21)
+    at listenInCluster (net.js:1361:12)
+    at GetAddrInfoReqWrap.doListen [as callback] (net.js:1498:7)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:68:8)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-09-18T05:02:05.128Z] ----------------------------------------------------------------------
+[debug] [2020-09-18T05:02:05.138Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bappi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2020-09-18T05:02:05.139Z] CLI Version:   8.10.0
+[debug] [2020-09-18T05:02:05.140Z] Platform:      win32
+[debug] [2020-09-18T05:02:05.140Z] Node Version:  v12.18.3
+[debug] [2020-09-18T05:02:05.188Z] Time:          Fri Sep 18 2020 11:02:05 GMT+0600 (Bangladesh Standard Time)
+[debug] [2020-09-18T05:02:05.190Z] ----------------------------------------------------------------------
+[debug] [2020-09-18T05:02:05.190Z] 
+[debug] [2020-09-18T05:02:05.310Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-18T05:02:05.314Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project challenge-11612. This may result in unexpected behavior. 
+[debug] [2020-09-18T05:02:07.497Z] [hub] writing locator at C:\Users\Bappi\AppData\Local\Temp\hub-challenge-11612.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: firestore, database, pubsub {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mfirestore, database, pubsub\u001b[22m"}}
+[warn] !  Your requested "node" version "10" doesn't match your global version "12" {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"10\" doesn't match your global version \"12\""}}
+[debug] [2020-09-18T05:02:09.873Z] defaultcredentials: writing to file C:\Users\Bappi\AppData\Roaming\firebase\bappi142434_gmail_com_application_default_credentials.json
+[debug] [2020-09-18T05:02:09.899Z] Setting GAC to C:\Users\Bappi\AppData\Roaming\firebase\bappi142434_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Bappi\\AppData\\Roaming\\firebase\\bappi142434_gmail_com_application_default_credentials.json"}}
+[debug] [2020-09-18T05:02:11.949Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-09-18T05:02:11.953Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-09-18T05:02:12.250Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 18 Sep 2020 05:02:11 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-09-18T05:02:12.307Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/challenge-11612/webApps/-/config  
+ 
+[debug] [2020-09-18T05:02:13.973Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 18 Sep 2020 05:02:13 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2020-09-18T05:02:16.368Z] Error: listen EACCES: permission denied 127.0.0.1:4500
+    at Server.setupListenHandle [as _listen2] (net.js:1296:21)
+    at listenInCluster (net.js:1361:12)
+    at GetAddrInfoReqWrap.doListen [as callback] (net.js:1498:7)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:68:8)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-09-18T05:06:38.430Z] ----------------------------------------------------------------------
+[debug] [2020-09-18T05:06:38.443Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bappi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2020-09-18T05:06:38.444Z] CLI Version:   8.10.0
+[debug] [2020-09-18T05:06:38.445Z] Platform:      win32
+[debug] [2020-09-18T05:06:38.445Z] Node Version:  v12.18.3
+[debug] [2020-09-18T05:06:38.450Z] Time:          Fri Sep 18 2020 11:06:38 GMT+0600 (Bangladesh Standard Time)
+[debug] [2020-09-18T05:06:38.451Z] ----------------------------------------------------------------------
+[debug] [2020-09-18T05:06:38.452Z] 
+[debug] [2020-09-18T05:06:38.497Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-18T05:06:38.500Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project challenge-11612. This may result in unexpected behavior. 
+[debug] [2020-09-18T05:06:40.610Z] [hub] writing locator at C:\Users\Bappi\AppData\Local\Temp\hub-challenge-11612.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: firestore, database, pubsub {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mfirestore, database, pubsub\u001b[22m"}}
+[warn] !  Your requested "node" version "10" doesn't match your global version "12" {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"10\" doesn't match your global version \"12\""}}
+[debug] [2020-09-18T05:06:42.818Z] defaultcredentials: writing to file C:\Users\Bappi\AppData\Roaming\firebase\bappi142434_gmail_com_application_default_credentials.json
+[debug] [2020-09-18T05:06:42.833Z] Setting GAC to C:\Users\Bappi\AppData\Roaming\firebase\bappi142434_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Bappi\\AppData\\Roaming\\firebase\\bappi142434_gmail_com_application_default_credentials.json"}}
+[debug] [2020-09-18T05:06:44.882Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/challenge-11612/webApps/-/config  
+ 
+[debug] [2020-09-18T05:06:47.249Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 18 Sep 2020 05:06:45 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2020-09-18T05:06:49.467Z] Error: listen EACCES: permission denied 127.0.0.1:4500
+    at Server.setupListenHandle [as _listen2] (net.js:1296:21)
+    at listenInCluster (net.js:1361:12)
+    at GetAddrInfoReqWrap.doListen [as callback] (net.js:1498:7)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:68:8)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-09-18T05:18:41.685Z] ----------------------------------------------------------------------
+[debug] [2020-09-18T05:18:41.699Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bappi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2020-09-18T05:18:41.701Z] CLI Version:   8.10.0
+[debug] [2020-09-18T05:18:41.701Z] Platform:      win32
+[debug] [2020-09-18T05:18:41.702Z] Node Version:  v12.18.3
+[debug] [2020-09-18T05:18:41.707Z] Time:          Fri Sep 18 2020 11:18:41 GMT+0600 (Bangladesh Standard Time)
+[debug] [2020-09-18T05:18:41.708Z] ----------------------------------------------------------------------
+[debug] [2020-09-18T05:18:41.709Z] 
+[debug] [2020-09-18T05:18:41.775Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-18T05:18:41.779Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project challenge-11612. This may result in unexpected behavior. 
+[debug] [2020-09-18T05:18:43.968Z] [hub] writing locator at C:\Users\Bappi\AppData\Local\Temp\hub-challenge-11612.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: firestore, database, pubsub {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mfirestore, database, pubsub\u001b[22m"}}
+[warn] !  Your requested "node" version "10" doesn't match your global version "12" {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"10\" doesn't match your global version \"12\""}}
+[debug] [2020-09-18T05:18:46.387Z] defaultcredentials: writing to file C:\Users\Bappi\AppData\Roaming\firebase\bappi142434_gmail_com_application_default_credentials.json
+[debug] [2020-09-18T05:18:46.403Z] Setting GAC to C:\Users\Bappi\AppData\Roaming\firebase\bappi142434_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Bappi\\AppData\\Roaming\\firebase\\bappi142434_gmail_com_application_default_credentials.json"}}
+[debug] [2020-09-18T05:18:50.078Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/challenge-11612/webApps/-/config  
+ 
+[debug] [2020-09-18T05:19:05.991Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 18 Sep 2020 05:18:58 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2020-09-18T05:19:09.231Z] Error: listen EACCES: permission denied 127.0.0.1:4500
+    at Server.setupListenHandle [as _listen2] (net.js:1296:21)
+    at listenInCluster (net.js:1361:12)
+    at GetAddrInfoReqWrap.doListen [as callback] (net.js:1498:7)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:68:8)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-09-18T05:26:39.104Z] ----------------------------------------------------------------------
+[debug] [2020-09-18T05:26:39.118Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bappi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2020-09-18T05:26:39.119Z] CLI Version:   8.10.0
+[debug] [2020-09-18T05:26:39.120Z] Platform:      win32
+[debug] [2020-09-18T05:26:39.120Z] Node Version:  v12.18.3
+[debug] [2020-09-18T05:26:39.125Z] Time:          Fri Sep 18 2020 11:26:39 GMT+0600 (Bangladesh Standard Time)
+[debug] [2020-09-18T05:26:39.126Z] ----------------------------------------------------------------------
+[debug] [2020-09-18T05:26:39.127Z] 
+[debug] [2020-09-18T05:26:39.170Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-18T05:26:39.173Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project challenge-11612. This may result in unexpected behavior. 
+[debug] [2020-09-18T05:26:41.284Z] [hub] writing locator at C:\Users\Bappi\AppData\Local\Temp\hub-challenge-11612.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: firestore, database, pubsub {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mfirestore, database, pubsub\u001b[22m"}}
+[warn] !  Your requested "node" version "10" doesn't match your global version "12" {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"10\" doesn't match your global version \"12\""}}
+[debug] [2020-09-18T05:26:43.490Z] defaultcredentials: writing to file C:\Users\Bappi\AppData\Roaming\firebase\bappi142434_gmail_com_application_default_credentials.json
+[debug] [2020-09-18T05:26:43.504Z] Setting GAC to C:\Users\Bappi\AppData\Roaming\firebase\bappi142434_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Bappi\\AppData\\Roaming\\firebase\\bappi142434_gmail_com_application_default_credentials.json"}}
+[debug] [2020-09-18T05:26:45.550Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/challenge-11612/webApps/-/config  
+ 
+[debug] [2020-09-18T05:26:47.303Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 18 Sep 2020 05:26:46 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2020-09-18T05:26:49.528Z] Error: listen EACCES: permission denied 127.0.0.1:4500
+    at Server.setupListenHandle [as _listen2] (net.js:1296:21)
+    at listenInCluster (net.js:1361:12)
+    at GetAddrInfoReqWrap.doListen [as callback] (net.js:1498:7)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:68:8)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-09-18T05:28:45.636Z] ----------------------------------------------------------------------
+[debug] [2020-09-18T05:28:45.648Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bappi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2020-09-18T05:28:45.649Z] CLI Version:   8.10.0
+[debug] [2020-09-18T05:28:45.649Z] Platform:      win32
+[debug] [2020-09-18T05:28:45.650Z] Node Version:  v12.18.3
+[debug] [2020-09-18T05:28:45.656Z] Time:          Fri Sep 18 2020 11:28:45 GMT+0600 (Bangladesh Standard Time)
+[debug] [2020-09-18T05:28:45.657Z] ----------------------------------------------------------------------
+[debug] [2020-09-18T05:28:45.658Z] 
+[debug] [2020-09-18T05:28:45.700Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-18T05:28:45.704Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project challenge-11612. This may result in unexpected behavior. 
+[debug] [2020-09-18T05:28:47.806Z] [hub] writing locator at C:\Users\Bappi\AppData\Local\Temp\hub-challenge-11612.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: firestore, database, pubsub {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mfirestore, database, pubsub\u001b[22m"}}
+[warn] !  Your requested "node" version "10" doesn't match your global version "12" {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"10\" doesn't match your global version \"12\""}}
+[debug] [2020-09-18T05:28:50.006Z] defaultcredentials: writing to file C:\Users\Bappi\AppData\Roaming\firebase\bappi142434_gmail_com_application_default_credentials.json
+[debug] [2020-09-18T05:28:50.020Z] Setting GAC to C:\Users\Bappi\AppData\Roaming\firebase\bappi142434_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Bappi\\AppData\\Roaming\\firebase\\bappi142434_gmail_com_application_default_credentials.json"}}
+[debug] [2020-09-18T05:28:52.070Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/challenge-11612/webApps/-/config  
+ 
+[debug] [2020-09-18T05:28:53.604Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 18 Sep 2020 05:28:52 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2020-09-18T05:28:55.807Z] Error: listen EACCES: permission denied 127.0.0.1:4500
+    at Server.setupListenHandle [as _listen2] (net.js:1296:21)
+    at listenInCluster (net.js:1361:12)
+    at GetAddrInfoReqWrap.doListen [as callback] (net.js:1498:7)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:68:8)
+[error] 
+[error] Error: An unexpected error has occurred.
